@@ -223,4 +223,4 @@ Traceback (most recent call last):
 sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 99] Cannot assign requested address)")
 (Background on this error at: https://sqlalche.me/e/20/e3q8)
 ```
-I was able to create a .env file and a .gitignore file. Initially, I thought the information inputted into my .env file was incorrect, so I tried relabeling each of the components of the .env file from the database. I finally realized I properly labeled the information in my .env file, but I was still receiving the same error message. 
+I was able to create a .ENV file and a .gitignore file. Initially, I thought the information inputted into my .ENV file was incorrect, so I tried relabeling each of the components of the .ENV file from the database. I finally realized I properly labeled the information in my .ENV file, but I was still receiving the same error message. 
