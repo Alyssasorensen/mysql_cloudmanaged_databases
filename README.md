@@ -59,7 +59,7 @@ In the "New" panel, type "Azure Database for MySQL" into the search box and clic
 Overall my experience with GCP, Azure, and MySQL Workbench was successful. I was able to create a database and display the database. I was able to create tables that were placed into the database. I was then able to create two entity-relationship diagrams (ERD) using both GCP and Azure. From the screenshots, you can see that one ERD was done as a GCP instance and the other was done as an Azure instance. All of the screenshots from both the GCP database and Azure database are located within the folders.   
 
 ## Python Script for Database Interaction, Code Erros, and Troubleshooting Attempt:
-I was able to develop a python script to connect to MySQL database however I kept encountering the same error when trying to push these changes into my database. The following code is what I inserted into my python_connection.py file. 
+I was able to develop a python script to connect to MySQL database however I kept encountering the same error when trying to push these changes into my GCP database. The following code is what I inserted into my python_connection.py file. 
 ```
 import os
 from dotenv import load_dotenv
@@ -102,7 +102,7 @@ sql_query = "SELECT * FROM your_table_name"  # Modify as per your table
 df = execute_query_to_dataframe(sql_query, db_engine)
 print(df)
 ```
-Below is the error message I kept receiving when trying top push these changes. 
+Below is the error message I kept receiving when trying top push these changes to my GCP database. 
 ```
 /alyssa_sorensen/mysql_cloudmanaged_databases/python_connection.pyn/python /home/
 Python-dotenv could not parse statement starting at line 1
