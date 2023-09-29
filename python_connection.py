@@ -27,12 +27,12 @@ load_dotenv()
 DB_HOST = os.getenv("alyssacloud504hw:us-central1:alyssa-hwtest")
 DB_DATABASE = os.getenv("gcp hw instance")
 DB_USERNAME = os.getenv("Alyssa.sorensen@stonybrook.edu")
-DB_PASSWORD = os.getenv("1996200119962001Ca")
+DB_PASSWORD = os.getenv("***")
 DB_PORT = int(os.getenv("DB_PORT", 3306))
 DB_CHARSET = os.getenv("DB_CHARSET", "utf8mb4")
 
 # Connection string
-conn_string = f"mysql+pymysql://{Alyssa.sorensen@stonybrook.edu}:{1996200119962001Ca}@{alyssacloud504hw:us-central1:alyssa-hwtest}:{3306}/{gcp hw instance}?charset={utf8mb4}"
+conn_string = f"mysql+pymysql://{Alyssa.sorensen@stonybrook.edu}:{***}@{alyssacloud504hw:us-central1:alyssa-hwtest}:{3306}/{gcp hw instance}?charset={utf8mb4}"
 
 # Create a database engine
 db_engine = create_engine(conn_string, echo=False)
