@@ -4,21 +4,18 @@ from sqlalchemy import create_engine
 from faker import Faker
 import random
 
-# Load environment variables
-load_dotenv()
-
 # Database connection settings from environment variables
-DB_HOST = os.getenv("alyssacloud504hw:us-central1:alyssa-hwtest")
-DB_DATABASE = os.getenv("gcp hw instance")
-DB_USERNAME = os.getenv("Alyssa.sorensen@stonybrook.edu")
-DB_PASSWORD = os.getenv("**")
+DB_HOST = os.getenv("DB_HOST")
+DB_DATABASE = os.getenv("DB_DATABASE")
+DB_USERNAME = os.getenv("DB_USERNAME")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_PORT = int(os.getenv("DB_PORT", 3306))
 DB_CHARSET = os.getenv("DB_CHARSET", "utf8mb4")
 
 # Connection string
 conn_string = (
-    f"mysql+pymysql://{Alyssa.sorensen@stonybrook.edu}:{**}@{alyssacloud504hw:us-central1:alyssa-hwtest}:{3306}/{gcp hw instance}"
-    f"?charset={utf8mb4}"
+    f"mysql+pymysql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_DATABASE}"
+    f"?charset={DB_CHARSET}"
 )
 
 # Create a database engine
