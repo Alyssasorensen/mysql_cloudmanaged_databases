@@ -10,25 +10,25 @@ This task centers around MySQL, delving into its deployment across prominent clo
 **Deployment option: Flexible,**
 **Tier: Burstable**
 **Compute: B1S [$6.21 p/month] or B1MS [$12.41 p/month]**
-1. Sign in to Azure: Logged in to my Microsoft Azure account using my credentials.
+1. Sign in to Azure: Logged into my Microsoft Azure account using my credentials.
 
-2. In the Azure portal, click on the "+ Create a resource" button on the left-hand menu.
+2. In the Azure portal, I clicked on the "+ Create a resource" button on the left-hand menu.
 
 3. Search for MySQL Service:
-In the "New" panel, type "Azure Database for MySQL" into the search box and click on it. 
+In the "New" panel, I typed "Azure Database for MySQL" into the search box and clicked on it. 
 
 4. Configure MySQL Settings:
--Clicked the "Create" or "Add" button and began setting up my MySQL instance. Subscription: Chose my Azure subscription. Resource Group: Created a new resource group. Instance Details: Set a unique name for MySQL instance, chose the region, and selected the MySQL version. Compute + Storage: Configured the compute and storage options according to my needs. I chose the tier that stated, "Burstable." Administrator Account: I set a username and password for MySQL server. Networking: Configure network settings, firewall rules, and public accessibility settings. I put a public IP address, but added the network, 0.0.0.0, which allows any IP. Additional Settings: Depending on your requirements, you may have other options to configure, such as backups, security, and tags.
+-Clicked the "Create" or "Add" button and began setting up my MySQL instance. Subscription: Chose my Azure subscription. Resource Group: Created a new resource group. Instance Details: Set a unique name for MySQL instance, chose the region, and selected the MySQL version. Compute + Storage: Configured the compute and storage options according to my needs. I chose the tier that stated, "Burstable." Administrator Account: I set a username and password for MySQL server. Networking: Configure network settings, firewall rules, and public accessibility settings. I put a public IP address, but added the network, 0.0.0.0/0, which allows any IP. Additional Settings: Depending on your requirements, you may have other options to configure, such as backups, security, and tags.
 
-5. Review and Create: After configuring all of my settings, I reviwed my choices to ensure they are correct. Then, I clicked the "Review + create" button.
+5. Review and Create: After I configured all of my settings, I reviwed my choices to ensure they were correct. Then, I clicked the "Review + create" button.
 
 6. Validation: Azure will validate your configuration to check for any errors or conflicts. If there are no issues, you can proceed to create the MySQL instance.
 
-7. Create: Clicked the "Create" button to deploy MySQL instance.
+7. Create: I clicked the "Create" button to deploy MySQL instance.
 
 8. Deployment: Azure will start deploying your MySQL instance based on the provided configuration. This process may take a few minutes.
 
-9. Access and Management: Once the deployment is complete, I can access and manage my MySQL instance through the Azure portal. 
+9. Access and Management: Once the deployment was complete, I accessed and managed my MySQL instance through the Azure portal. 
 
 10. Connect to MySQL: I used MySQL Workbench to connect to my Azure MySQL instance. 
 
