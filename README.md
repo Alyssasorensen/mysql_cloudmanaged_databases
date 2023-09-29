@@ -2,6 +2,11 @@
 ## **HHA 504 HW Assignment 4**
 This task centers around MySQL, delving into its deployment across prominent cloud platforms such as Azure and GCP. Upon completion, I will have acquired practical proficiency in configuring MySQL on these platforms. Additionally, I will become adept at employing MySQL Workbench for database design and management, and if desired, I can also learn to establish connections to my database using Python to retrieve data.
 ## Setup process for Azure:
+**Azure:**
+**Azure Database for MySQL**
+**Deployment option: Flexible,**
+**Tier: Burstable**
+**Compute: B1S [$6.21 p/month] or B1MS [$12.41 p/month]**
 1. Sign in to Azure: Logged in to my Microsoft Azure account using my credentials.
 
 2. In the Azure portal, click on the "+ Create a resource" button on the left-hand menu.
