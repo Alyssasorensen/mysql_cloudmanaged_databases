@@ -1,7 +1,7 @@
 # mysql_cloudmanaged_databases
 ## **HHA 504 HW Assignment 4**
 This task centers around MySQL, delving into its deployment across prominent cloud platforms such as Azure and GCP. Upon completion, I will have acquired practical proficiency in configuring MySQL on these platforms. Additionally, I will become adept at employing MySQL Workbench for database design and management, and if desired, I can also learn to establish connections to my database using Python to retrieve data.
-### **Make sure that the instance is properly configued to allow inbound traffic from the world wide web. In GCP, we needed to configure a network that allowed any ip (0.0.0.0/0) - there is a similar configuration option that you need to find in Azure.**
+### Make sure that the instance is properly configured to allow inbound traffic from the world wide web. In GCP, we needed to configure a network that allowed any IP (0.0.0.0/0) - there is a similar configuration option that you need to find in Azure.
 ## Setup process for Azure:
 **Azure:**
 **Azure Database for MySQL**
