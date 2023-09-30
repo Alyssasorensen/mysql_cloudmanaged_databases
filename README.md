@@ -223,4 +223,11 @@ Traceback (most recent call last):
 sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 99] Cannot assign requested address)")
 (Background on this error at: https://sqlalche.me/e/20/e3q8)
 ```
-I was able to create a .ENV file and a .gitignore file. Initially, I thought the information inputted into my .ENV file was incorrect, so I tried relabeling each of the components of the .ENV file from the database. I finally realized I properly labeled the information in my .ENV file, but I was still receiving the same error message. 
+I was able to create a .ENV file and a .gitignore file. Initially, I thought the information inputted into my .ENV file was incorrect, so I tried relabeling each of the components of the .ENV file from the database. After relabeling, I got a new error message. It is displayed below. 
+```
+Traceback (most recent call last):
+  File "/home/alyssa_sorensen/mysql_cloudmanaged_databases/python_connection.py", line 21, in <module>
+    raise ValueError("SSL_CA, SSL_CERT, and SSL_KEY environment variables are not set.")
+ValueError: SSL_CA, SSL_CERT, and SSL_KEY environment variables are not set.
+```
+On MySQL Workbench, when setting up the instance/connection, next to the parameters tab there is an SSL tab, where you can set whether you want to use SSL and the files below. When changing the use SSL drop-down to require instead of if available, it then requires you to insert the SSL CA file and I was unable to locate this. 
