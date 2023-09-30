@@ -230,4 +230,4 @@ Traceback (most recent call last):
     raise ValueError("SSL_CA, SSL_CERT, and SSL_KEY environment variables are not set.")
 ValueError: SSL_CA, SSL_CERT, and SSL_KEY environment variables are not set.
 ```
-On MySQL Workbench, when setting up the instance/connection, next to the parameters tab there is an SSL tab, where you can set whether you want to use SSL and the files below. When changing the use SSL drop-down to "require" instead of "if available", it then requires you to insert the SSL CA file and I was unable to locate this. Therefore, I was unable to set the variables for each one as it refers to in the error message.  
+On MySQL Workbench, when setting up the instance/connection, next to the parameters tab there is an SSL tab, where you can set whether you want to use SSL and the files below. When changing the use SSL drop-down to "require" instead of "if available", it then requires you to insert the SSL CA file and I was unable to locate this. Therefore, I was unable to set the variables for each one as shown in the error message.  
